@@ -9,6 +9,7 @@ use App\Models\Post;
 class Category extends Model
 {
     use HasFactory;
+    protected $fillable=['name','slug'];
     //Relación de 1 a muchos
     public function posts(){
         return $this->hasMany(Post::class);

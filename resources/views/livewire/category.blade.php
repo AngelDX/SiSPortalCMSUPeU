@@ -15,7 +15,7 @@
             class="bg-purple-600 hover:bg-yellow-500 text-white font-bold py-2 px-4 rounded my-3">
             Crear Nueva Categoria</button>
             @if($isOpen)
-                @include('livewire.producto_create')
+                @include('livewire.category_create')
             @endif
             <table class="table-fixed w-full">
                 <thead>
